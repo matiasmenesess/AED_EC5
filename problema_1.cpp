@@ -1,3 +1,6 @@
+//Javier olivares matias meneses santiago  silva
+
+
 #include <iostream>
 #include <random>
 #include <cmath>

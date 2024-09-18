@@ -1,3 +1,5 @@
+// Matias Meneses, Santiago Silva y Javier Olivares
+
 #include <iostream>
 #include <random>
 #include <cmath>

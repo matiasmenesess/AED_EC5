@@ -191,12 +191,13 @@ public:
     }
 };
 
+
+
 class Solution {
 public:
     vector<string> findRepeatedDnaSequences(string s) {
-          Hash_Table<string, int> ht(27);
+    Hash_Table<string, int> ht(27);
 
-//    string s = "AAAAAAAAAAAAA";
     string sub="";
     for(int i=0;i<s.length();i++){
         if(i<10)
@@ -213,6 +214,7 @@ public:
             sub[7] = sub[8];
             sub[8] = sub[9];
             sub[9] = s[i];
+
         }
     }
     return ht.retornar();
